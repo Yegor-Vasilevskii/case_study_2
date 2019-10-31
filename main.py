@@ -1,5 +1,5 @@
 #Developers:
-#Mahanov S (%), Pestretsova M (%), Pokareva C(20%), Vasilevskiy Y (%)
+#Mahanov S (%), Pestretsova M (%), Pokareva C (20%), Vasilevskiy Y (%)
 #Let's say hello to our guests!
 print('Здравствуйте! Добро пожаловать в нашу добрую и славную налоговую инспекцию')
 print('Давайте вместе расситаем, сколько Вы нам должны!')
@@ -47,7 +47,7 @@ if type_number == 1:
             return 0.1 * 12950 + (49400 - 12951) * 0.15 + (127550 - 49401) * 0.25 + (186350 - 127551) * 0.28 + (405100 - 206601) * 0.33 + (b - 405101) * 0.35
         else:
             return 0.1 * 12950 + (49400 - 12951) * 0.15 + (127550 - 49401) * 0.25 + (186350 - 127551) * 0.28 + (405100 - 206601) * 0.33 + (432200 - 405101) * 0.35 + (b - 432201) * 0.396
-    tax_for_lonely_parents = tax_income(income)
-    print(tax_for_lonely_parents)
+      tax_for_lonely_parents = tax_income(income)
+      print(tax_for_lonely_parents)
        
-        pass #Напишите продолжение позже
+  pass #Напишите продолжение позже
