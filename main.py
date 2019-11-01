@@ -1,5 +1,5 @@
 #Developers:
-#Mahanov S (%), Pestretsova M (%), Pokareva C (20%), Vasilevskiy Y (%)
+#Mahanov S (%), Pestretsova M (%), Pokareva C (20%), Vasilevskiy Y (65%)
 #Let's say hello to our guests!
 print('Добро пожаловать!')
 income_month = int(input('Введите ваш месячный доход:'))
