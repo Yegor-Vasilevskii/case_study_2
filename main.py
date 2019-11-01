@@ -1,5 +1,5 @@
 #Developers:
-#Mahanov S (40%), Pestretsova M (%), Pokareva C (20%), Vasilevskiy Y (%)
+#Mahanov S (%), Pestretsova M (%), Pokareva C (20%), Vasilevskiy Y (%)
 #Let's say hello to our guests!
 print('Добро пожаловать!')
 income_month = int(input('Введите ваш месячный доход:'))
@@ -72,5 +72,4 @@ def  tax_for_lonely_parents(b):
 tax_type_name = [tax_for_lonely(income),tax_for_married_couples(income),tax_for_lonely_parents(income)]
 tax_income = tax_type_name[number_type - 1]
 print('Поздравляем!!!')
-print('Ваш налог составил',tax_income,'рублей')
-    
+print('Ваш налог составил',tax_income,'рублей')    
